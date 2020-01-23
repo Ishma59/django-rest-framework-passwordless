@@ -39,7 +39,7 @@ DEFAULTS = {
     # The email template name.
     'PASSWORDLESS_EMAIL_TOKEN_HTML_TEMPLATE_NAME': "passwordless_default_token_email.html",
 
-    # Your twilio number that sends the callback tokens.
+    # Your africastalking number that sends the callback tokens.
     'PASSWORDLESS_MOBILE_NOREPLY_NUMBER': None,
 
     # The message sent to mobile users logging in. Takes one string.
