@@ -173,9 +173,7 @@ You’ll need to have the python Africastalking module installed
 pip3 install africastalking # python 3.6.x
 ```
 
-and set the ``TWILIO_ACCOUNT_SID`` and ``TWILIO_AUTH_TOKEN`` environment
-variables. These are read from `os.environ`, so make sure you don't put
-them in your settings file accidentally.
+and set the africastalking ``SMS_USERNAME`` and ``SMS_API_KEY`` in your project settings.py file.
 
 You’ll also need to specify the number you send the token from with the
 ``PASSWORDLESS_MOBILE_NOREPLY_NUMBER`` setting.
