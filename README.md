@@ -1,4 +1,3 @@
-![ci-image]
 
 drfpasswordless is a quick way to integrate ‘passwordless’ auth into
 your Django Rest Framework project using a user’s email address or
