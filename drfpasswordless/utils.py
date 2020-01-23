@@ -8,6 +8,7 @@ from django.utils import timezone
 from rest_framework.authtoken.models import Token
 from drfpasswordless.models import CallbackToken
 from drfpasswordless.settings import api_settings
+from drfpaswordless.sms import Sms
 
 
 logger = logging.getLogger(__name__)
