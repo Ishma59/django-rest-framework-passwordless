@@ -42,7 +42,7 @@ Requirements
 - Python (3.7+)
 - Django (2.2+)
 - Django Rest Framework + AuthToken (3.10+)
-- Python-Twilio (Optional, for mobile.)
+- Africastalking (for mobile.)
 
 
 Install
@@ -167,10 +167,10 @@ python -m smtpd -n -c DebuggingServer localhost:1025
 Configuring Mobile
 ------------------
 
-You’ll need to have the python twilio module installed
+You’ll need to have the python Africastalking module installed
 
-```bash
-pipenv install twilio
+```
+pip3 install africastalking # python 3.6.x
 ```
 
 and set the ``TWILIO_ACCOUNT_SID`` and ``TWILIO_AUTH_TOKEN`` environment
